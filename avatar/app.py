@@ -28,6 +28,7 @@ class Index(object):
             size = int(size)
         except TypeError:
             size = 30
+        size = size if size <= 100 else 30  # limit avatar size
 
         img = Visicon(ip, str(time()), size).draw_image()
         temp_img = StringIO()

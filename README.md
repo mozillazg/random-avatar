@@ -11,9 +11,9 @@ Random Avatar Service.
 
 http://avatar.3sd.me/size
 
-size: image size(default: 30)
+size: image size(default: 30),limit size<=100
 
 ###Example
 
-<http://avatar.3sd.me>
-<http://avatar.3sd.me/40>
+* <http://avatar.3sd.me>
+* <http://avatar.3sd.me/40>
